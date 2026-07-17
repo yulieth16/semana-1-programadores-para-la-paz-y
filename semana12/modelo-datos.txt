@@ -1,0 +1,21 @@
+Entidad: Causa
+
+Campos:
+- id
+- titulo
+- descripcion
+- fecha
+
+Propósito:
+Guardar la información de las causas creadas por la comunidad.
+
+Entidad: Apoyo
+
+Campos:
+- id
+- causa_id
+- nombre
+- fecha
+
+Propósito:
+Registrar los apoyos que recibe cada causa para llevar un control de la participación ciudadana.
