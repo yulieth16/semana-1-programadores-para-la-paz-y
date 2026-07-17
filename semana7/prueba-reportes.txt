@@ -1,0 +1,15 @@
+Al enviar un reporte mediante la ruta POST /reportes, el servidor guarda la información en un array llamado reportes.
+
+Cuando se consulta la ruta GET /reportes, el servidor devuelve la lista de todos los reportes registrados mientras el servidor esté en ejecución.
+
+Ejemplo de respuesta:
+
+[
+      {
+            "id": 1,
+                "tipo": "Infraestructura",
+                    "descripcion": "Daño en alumbrado público"
+      }
+]
+      }
+]
